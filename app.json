@@ -1,0 +1,18 @@
+{
+  "name": "♥️𓆩𝐃𝐈𝐍𝐔𝐖𝐀 𝐌𝐃𓆪 PAIR♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://files.catbox.moe/79y64g.png",
+  "repository": "https://github.com/me9900-say/AZmini",
+  "keywords": ["@LG_DINUWA"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || 𓆩𝐃𝐈𝐍𝐔𝐖𝐀 𝐌𝐃𓆪 OFFICIAL 🔰",
+      "required": false 
+    }
+  }
+}
