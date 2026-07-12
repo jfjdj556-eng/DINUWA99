@@ -59,7 +59,7 @@ cmd({
 
         // Send Image with Newsletter
         await conn.sendMessage(from, {
-            image: { url: "https://up6.cc/2026/05/177971006919991.png" },
+            image: { url: "https://files.catbox.moe/79y64g.png" },
             caption: `✨ ${pushname}, Bot is Active!`,
             contextInfo: {
                 forwardingScore: 999,
