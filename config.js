@@ -18,7 +18,7 @@ module.exports = {
     PREFIX: process.env.PREFIX || '.',
     OWNER_NUMBER: process.env.OWNER_NUMBER || '+237620979438', // Mettez votre numéro ici
     BOT_NAME: "𓆩𝐃𝐈𝐍𝐔𝐖𝐀 𝐌𝐃𓆪",
-    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪɴᴜᴡᴀ ᴍᴅ,
+    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪɴᴜᴡᴀ ᴍᴅ',
     
     // Mode de travail : public, private, group, inbox
     WORK_TYPE: process.env.WORK_TYPE || "public", 
