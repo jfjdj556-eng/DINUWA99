@@ -1,4 +1,4 @@
-const fs = require('fs');
+jconst fs = require('fs');
 const dotenv = require('dotenv');
 
 if (fs.existsSync('.env')) {
@@ -16,7 +16,7 @@ module.exports = {
     // 2. INFORMATIONS DU BOT
     // ===========================================================
     PREFIX: process.env.PREFIX || '.',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || '+237620979438', // Mettez votre numéro ici
+    OWNER_NUMBER: process.env.OWNER_NUMBER || '+967717777511', // Mettez votre numéro ici
     BOT_NAME: "𓆩𝐃𝐈𝐍𝐔𝐖𝐀 𝐌𝐃𓆪",
     BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪɴᴜᴡᴀ ᴍᴅ',
     
@@ -50,7 +50,7 @@ module.exports = {
     WELCOME_IMAGE: process.env.WELCOME_IMAGE || null, 
     GOODBYE_IMAGE: process.env.GOODBYE_IMAGE || null,
     
-    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/B9aQvczskhr7gekKrAjCsm?s=cl&p=a&mlu=0&amv=1',
+    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://whatsapp.com/channel/0029Vb7OZXkHAdNdCCAlST1O',
     
     // ===========================================================
     // 6. SÉCURITÉ & ANTI-CALL
@@ -68,7 +68,7 @@ module.exports = {
     // 8. EXTERNAL API (Optionnel)
     // ===========================================================
     TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '8613085187:AAGqIXthEY-NGoVnplmAfDqTZwdspO6oB8o',
-    TELEGRAM_CHAT_ID: process.env.  TELEGRAM_CHAT_ID || '+237620979438'
+    TELEGRAM_CHAT_ID: process.env.  TELEGRAM_CHAT_ID || '+967717777511'
     
 };
   
